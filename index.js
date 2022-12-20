@@ -7806,7 +7806,7 @@ bot.onText(/^\.reverse|^\/reverse/, function (msg) {
         bot.sendMessage(chatid, "Parece que hubo un error:(");
       }
 });
-
+//https://github.com/NoheliGT/nohegurab/invitations
 bot.onText(/\/quote/, (msg) => {
   const chatId = msg.chat.id;
   const frase = randomQuote();
